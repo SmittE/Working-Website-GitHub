@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<section class="loginform cf">
+<form name="login" action="index_submit" method="get" accept-charset="utf-8">
+  <ul>
+    <li><label for="usermail">Email</label>
+    <input type="email" name="usermail" placeholder="example@gmail.com" required></li>
+    <li><label for="password">Password</label>
+    <input type="password" name="password" placeholder="password" required></li>
+    <li>
+    <input type="submit" value="Login"></li>
+  </ul>
+</form>
+</section>
+<style>
+body {
+        background-image: url("blue gradient background.jpg");
+} 
+ 
+label {
+  display: block;
+  color: #999;
+}
+.cf:before,
+.cf:after {
+    content: ""; 
+    display: table;
+}
+ 
+.cf:after {
+    clear: both;
+}
+.cf {
+    *zoom: 1;
+}
+:focus {
+  outline: 0;
+}
+</style>
